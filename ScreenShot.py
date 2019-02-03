@@ -46,5 +46,5 @@ if __name__ == '__main__':
     for _ in range(sys.maxsize):
 
         screenShot(6)
-
-        print(baiduapi.picture2Text('grabImage.png'))
+        texts = baiduapi.picture2Text('grabImage.png')
+        print(texts)
